@@ -1,0 +1,16 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: G:/VisDrone-Person/train/images #  images
+val: G:/VisDrone-Person/val/images  #  images
+#train: D:/Data/VisDrone2019-DET/VisDrone-Person/train/images #  images
+#val: D:/Data/VisDrone2019-DET/VisDrone-Person/val/images  #  images
+# test: E:/L/Citrus-YOLOv7-main/datasets/test.txt  #  images, submit to https://competitions.codalab.org/competitions/20794
+#train_labels: G:/ultralytics-main/dataset/labels/train
+#val_labels: G:/ultralytics-main/dataset/labels/val
+# number of classes
+nc: 1
+
+# class names
+names: ["person"]
+

@@ -1,0 +1,13 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: E:/VOCdevkit/images/train #  images
+val: E:/VOCdevkit/images/val  #  images
+# test: E:/L/Citrus-YOLOv7-main/datasets/test.txt  #  images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 1
+
+# class names
+
+names: ['Phoca largha']
