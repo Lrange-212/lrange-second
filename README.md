@@ -1,3 +1,6 @@
+#数据集网盘链接
+
+#相关模型的代码分别在对应的分支中
 0.Installation
 创建训练环境
 conda create -n yolo python=3.8
